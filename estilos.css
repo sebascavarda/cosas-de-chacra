@@ -1,0 +1,54 @@
+
+.navbar{
+    background-color: olivedrab;
+}
+
+nav img{
+    margin-right: 70px;
+}
+
+.jumbotron{
+    background-image: url(img/pino.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 aqua;
+}
+
+.lead{
+    font-size: 28px;
+}
+
+.container{
+margin-top: 200px;
+margin-left: 100px;
+}
+
+.nav-link{
+    font-size: 30px;
+    font-family: 'El Messiri', sans-serif;
+    color: #fff!important;
+}
+.nav-link:hover{
+    color: black!important;
+}
+
+h2{
+    background-color:olivedrab ;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.parrafo{
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+

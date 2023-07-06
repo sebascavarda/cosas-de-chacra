@@ -1,30 +1,15 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*estilos barra nav*/
 .navbar{
     background-color: olivedrab;
 }
 
 nav img{
     margin-right: 70px;
-}
-
-.jumbotron{
-    background-image: url(img/pino.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    font-family: 'El Messiri', sans-serif;
-    color: #fff;
-    text-shadow: 0 0 aqua;
-}
-
-.lead{
-    font-size: 28px;
-}
-
-.container{
-margin-top: 200px;
-margin-left: 100px;
 }
 
 .nav-link{
@@ -35,13 +20,35 @@ margin-left: 100px;
 .nav-link:hover{
     color: black!important;
 }
+/*estilos jumbotron*/
+.jumbotron{
+    background-image: url(img/pino.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 aqua;
+    border-top: solid 1px black;
+}
 
-h2{
+.lead{
+    font-size: 28px;
+}
+
+.container{
+margin-top: 200px;
+margin-left: 100px;
+}
+/* estilo h2 - parrafo*/
+.titulo-2{
     background-color:olivedrab ;
     color: #fff;
     text-align: center;
     padding: 20px;
     font-family: 'El Messiri', sans-serif;
+    border-top: solid 1px black;
 }
 
 .parrafo{
@@ -49,6 +56,50 @@ h2{
     font-family: 'El Messiri', sans-serif;
     margin-top: 50px;
     font-size: 25px;
+}
+
+/*estilos a las cards de producto*/
+.card-deck{
+    font-family: 'El Messiri', sans-serif; 
+    }
+
+.card{
+    border: solid 2px black;
+    margin-top: 20px;
+}
+
+.ul-item{
+    padding: 40px;
+}
+
+/*estilos footer*/
+footer{
+    background-color: olivedrab;
+    border-top: solid 1px black;
+}
+
+footer ul li a{
+    color: #fff;
+}
+
+.fa-whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 60px;
+    color: black;
+}
+
+/*estilos formulario*/
+.formulario{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.forma{
+    border: solid 5px olivedrab;
+    border-style: inset;
 }
 
 

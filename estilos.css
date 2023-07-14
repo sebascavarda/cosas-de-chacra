@@ -1,105 +1,144 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/*variable color*/
+/*variables de fuente*/
 /*estilos barra nav*/
-.navbar{
-    background-color: olivedrab;
+.navbar {
+  background-color: olivedrab;
 }
 
-nav img{
-    margin-right: 70px;
+nav img {
+  margin-right: 70px;
 }
 
-.nav-link{
-    font-size: 30px;
-    font-family: 'El Messiri', sans-serif;
-    color: #fff!important;
+.nav-link {
+  font-size: 30px;
+  font-family: "El Messiri", sans-serif;
+  color: #fff !important;
 }
-.nav-link:hover{
-    color: black!important;
+
+.nav-link:hover {
+  color: black !important;
 }
+
 /*estilos jumbotron*/
-.jumbotron{
-    background-image: url(img/pino.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    font-family: 'El Messiri', sans-serif;
-    color: #fff;
-    text-shadow: 0 0 aqua;
-    border-top: solid 1px black;
+.jumbotron {
+  background-image: url(img/pino.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  font-family: "El Messiri", sans-serif;
+  color: #fff;
+  text-shadow: 0 0 aqua;
+  border-top: solid 1px black;
 }
 
-.lead{
-    font-size: 28px;
+.lead {
+  font-size: 28px;
 }
 
-.container{
-margin-top: 200px;
-margin-left: 100px;
+.container {
+  margin-top: 200px;
+  margin-left: 100px;
 }
+
 /* estilo h2 - parrafo*/
-.titulo-2{
-    background-color:olivedrab ;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    font-family: 'El Messiri', sans-serif;
-    border-top: solid 1px black;
+.titulo-2 {
+  background-color: olivedrab;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-family: "El Messiri", sans-serif;
+  border-top: solid 1px black;
 }
 
-.parrafo{
-    text-align: center;
-    font-family: 'El Messiri', sans-serif;
-    margin-top: 50px;
-    font-size: 25px;
+.parrafo {
+  text-align: center;
+  font-family: "El Messiri", sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
 }
 
 /*estilos a las cards de producto*/
-.card-deck{
-    font-family: 'El Messiri', sans-serif; 
-    }
-
-.card{
-    border: solid 2px black;
-    margin-top: 20px;
+.card-body {
+  font-family: "El Messiri", sans-serif;
 }
 
-.ul-item{
-    padding: 40px;
+.card {
+  border: solid 1px black;
+  margin: 30px !important;
+  background-color: olivedrab;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.ul-item {
+  padding: 40px;
 }
 
 /*estilos footer*/
-footer{
-    background-color: olivedrab;
-    border-top: solid 1px black;
+footer {
+  background-color: olivedrab;
+  border-top: solid 1px black;
 }
 
-footer ul li a{
-    color: #fff;
+footer ul li a {
+  color: #fff;
 }
 
-.fa-whatsapp{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 60px;
-    color: black;
+.fa-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 60px;
+  color: black;
 }
 
 /*estilos formulario*/
-.formulario{
-    padding: 30px;
-    display: flex;
-    justify-content: center;
+.formulario {
+  padding: 30px;
+  display: flex;
+  justify-content: left;
 }
 
-.forma{
-    border: solid 5px olivedrab;
-    border-style: inset;
+.formulario :hover {
+  color: olivedrab;
+}
+
+.forma {
+  border: solid 5px olivedrab;
+  border-style: ridge;
+}
+
+.maps {
+  display: block;
+  margin: 0 auto;
+}
+
+/*estilo carrusel*/
+.d-item {
+  height: 500px;
+}
+
+.d-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.carousel-inner {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid 1px black;
 }
 
 
+
+/*# sourceMappingURL=estilos.css.map */

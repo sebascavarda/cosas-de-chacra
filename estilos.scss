@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*variable color*/
+$color-1: olivedrab;
+$color-2: #fff;
+
+/*variables de fuente*/
+$fuente: "El Messiri", sans-serif;
+
+/*estilos barra nav*/
+.navbar {
+    background-color: $color-1;
+}
+
+nav img {
+    margin-right: 70px;
+}
+
+.nav-link {
+    font-size: 30px;
+    font-family: $fuente;
+    color: $color-2 !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+/*estilos jumbotron*/
+.jumbotron {
+    background-image: url(img/pino.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    font-family: $fuente;
+    color: $color-2;
+    text-shadow: 0 0 aqua;
+    border-top: solid 1px black;
+}
+
+.lead {
+    font-size: 28px;
+}
+
+.container {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+/* estilo h2 - parrafo*/
+.titulo-2 {
+    background-color: $color-1;
+    color: $color-2;
+    text-align: center;
+    padding: 20px;
+    font-family: $fuente;
+    border-top: solid 1px black;
+}
+
+.parrafo {
+    text-align: center;
+    font-family: $fuente;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+/*estilos a las cards de producto*/
+.card-body {
+    font-family: $fuente;
+}
+
+.card {
+    border: solid 1px black;
+    margin: 30px !important;
+    background-color: $color-1;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+
+.ul-item {
+    padding: 40px;
+}
+
+/*estilos footer*/
+footer {
+    background-color: $color-1;
+    border-top: solid 1px black;
+}
+
+footer ul li a {
+    color: $color-2;
+}
+
+.fa-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 60px;
+    color: black;
+}
+
+/*estilos formulario*/
+.formulario {
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.formulario :hover{
+    color: $color-1;
+}
+
+.forma {
+    border: solid 5px $color-1;
+    border-style: ridge;
+}
+
+.maps{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*estilo carrusel*/
+.d-item {
+    height: 500px;
+}
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.carousel-inner{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid 1px black 
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -16,7 +16,13 @@ $fuente: "El Messiri", sans-serif;
     background-color: $color-1;
 }
 
-nav img {
+
+.navbar-toggler {
+    border: none !important;
+} 
+
+
+nav img{
     margin-right: 70px;
 }
 
@@ -36,20 +42,25 @@ nav img {
     background-position: center;
     background-size: cover;
     height: 600px;
-    width: 100%;
+    width: 100vw;
     font-family: $fuente;
-    color: $color-2;
+    color: black;
     text-shadow: 0 0 aqua;
     border-top: solid 1px black;
 }
 
 .lead {
-    font-size: 28px;
+    font-size: 1.8em;
 }
 
 .container {
     margin-top: 200px;
     margin-left: 100px;
+}
+
+.container-fluid {
+    overflow: hidden;
+    text-shadow: none;
 }
 
 /* estilo h2 - parrafo*/
@@ -103,7 +114,7 @@ footer ul li a {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    font-size: 60px;
+    font-size: 40px;
     color: black;
 }
 
@@ -111,7 +122,7 @@ footer ul li a {
 .formulario {
     padding: 30px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .formulario :hover{
@@ -123,10 +134,11 @@ footer ul li a {
     border-style: ridge;
 }
 
-.maps{
-    display: block;
-    margin: 0 auto;
+/*estilo mapa*/
+.contenedor{
+    width: 50%; margin: 0px auto;
 }
+
 
 
 /*estilo carrusel*/
@@ -140,10 +152,35 @@ footer ul li a {
     filter: brightness(0.6);
 }
 
+.contenete{
+    width: 60%; margin: 0px auto;
+}
+
 .carousel-inner{
     margin-top: 50px;
     margin-bottom: 50px;
     border: solid 1px black 
 }
+
+/*para servicios*/
+.asociate{
+    h3{
+        font-family: $fuente;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    p{
+        font-family: $fuente;
+        font-size: 18px;
+    }
+}
+
+.FotoSocio{
+    background-image: url(img/pinito.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 /*# sourceMappingURL=estilos.css.map */

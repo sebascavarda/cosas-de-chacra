@@ -69,7 +69,7 @@ nav img {
 .parrafo {
   text-align: center;
   font-family: "El Messiri", sans-serif;
-  margin-top: 50px;
+  margin: 50px;
   font-size: 25px;
 }
 
@@ -155,22 +155,21 @@ footer ul li a {
 }
 
 /*para servicios*/
-.asociate h3 {
-  font-family: "El Messiri", sans-serif;
-  font-size: 40px;
-  text-transform: uppercase;
-}
-.asociate p {
-  font-family: "El Messiri", sans-serif;
-  font-size: 18px;
+.flex-container {
+  display: flex;
+  margin: 50px;
+  background-color: olivedrab;
 }
 
-.FotoSocio {
-  background-image: url(img/pinito.jpg);
-  background-size: cover;
-  background-position: center;
+/*.img-serv {
+    width: 60%;
+    height: auto;
+}*/
+.parr-serv {
+  font-family: "El Messiri", sans-serif;
+  font-size: 25px;
+  margin: 50px;
 }
-
 
 
 /*# sourceMappingURL=estilos.css.map */

@@ -76,8 +76,9 @@ nav img{
 .parrafo {
     text-align: center;
     font-family: $fuente;
-    margin-top: 50px;
+    margin: 50px;
     font-size: 25px;
+    
 }
 
 /*estilos a las cards de producto*/
@@ -163,23 +164,24 @@ footer ul li a {
 }
 
 /*para servicios*/
-.asociate{
-    h3{
-        font-family: $fuente;
-        font-size: 40px;
-        text-transform: uppercase;
-    }
-    p{
-        font-family: $fuente;
-        font-size: 18px;
-    }
+.flex-container {
+display: flex;
+margin: 50px;
+background-color: $color-1;
 }
 
-.FotoSocio{
-    background-image: url(img/pinito.jpg);
-    background-size: cover;
-    background-position: center;
+/*.img-serv {
+    width: 60%;
+    height: auto;
+}*/
+
+.parr-serv {
+    font-family: $fuente;
+    font-size: 25px;
+    margin: 50px;
 }
+
+
 
 
 

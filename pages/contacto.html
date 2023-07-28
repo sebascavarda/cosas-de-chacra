@@ -13,76 +13,55 @@
     <title>Cosas de chacra</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md  navbar-dark">
-            
-        <img src="../img/logo100.jpg" alt="logo">
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <i class="fa-solid fa-bars-staggered"></i>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="quienes somos.html">Quienes somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="productos.html">Productos</a>
-                </li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-md  navbar-dark ">
+            <img class="anime" src="../img/logo100.jpg" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienes somos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="contacto">
+        <div class="formulario">
+            <form>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre y apellido" required>
+                <input type="email" name="email" placeholder="Ingrese su email" required>
+                <input type="text" name="telefono" placeholder="Ingrese su numero telefónico">
+                <textarea name="mensaje" placeholder="Escribe un mensaje"></textarea>
+                <input type="submit" value="Enviar" id="boton">
+                </form>
         </div>
-    </nav>
-
-    
-    <!-- inserción de formulario -->
-    <div class="formulario">
-        <div><form action="" method="post" enctype="text/plain">
-            <input class="forma" type="text" name="" id="" placeholder="Nombre y apellido" required><br> <br>
-            <input class="forma" type="email" name="" id="" placeholder="Email" required> <br><br>
-            <textarea class="forma" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea> <br><br>
-            <input class="forma" type="submit">
-            <input class="forma" type="reset" value="Borrar">
-            </form>
-        </div>
-        
-    </div>
-    <h1 class="titulo-2">Aquí nos encontramos</h1>
-    <div class="contenedor">
+        <h1 class="estilo margen" >Aquí nos encontramos</h1>
+        <div class="contenedor">
         <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.2974644772044!2d-63.033359351292944!3d-33.12754891906629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ceb9c10dcbd6c9%3A0xee324e1c2ecef36c!2sCosas%20de%20Chacra!5e0!3m2!1ses-419!2sar!4v1689295863683!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    
+        </div>
+    </main>
     <footer class="page-footer font-small blue pt-4">
-
-        <!-- Footer Links -->
         <div class="container-fluid text-center text-md-left">
-
-            <!-- Grid row -->
             <div class="row">
-
-                <!-- Grid column -->
                 <div class="col-md-6 mt-md-0 mt-3">
-
-                    <!-- Content -->
-                    <h5 class="text-uppercase">Cosas de chacra</h5>
+                    <h2 class="text-uppercase size">Cosas de chacra</h2>
                     <p>Nuestra experiencia en ciencias agrarias a su servicio.</p>
-
                 </div>
-                <!-- Grid column -->
-
                 <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Grid column -->
                 <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
-
+                    <h2 class="text-uppercase size">Links</h2>
                     <ul class="list-unstyled">
                         <li>
                             <a href="../index.html">Inicio</a>
@@ -97,21 +76,12 @@
                             <a href="productos.html">Productos</a>
                         </li>
                     </ul>
-
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
                 <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Redes</h5>
-
+                    <h2 class="text-uppercase size">Redes</h2>
                     <ul class="list-unstyled">
-                        
                         <li>
                             <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                            
                         </li>
                         <li>
                             <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des" target="_blank"><i class="fa-brands fa-twitter"></i></a>
@@ -121,40 +91,15 @@
                                     class="fa-brands fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href=""><i class="fa-regular fa-envelope"></i></a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                         </li>
                     </ul>
-
                 </div>
-                <!-- Grid column -->
-
             </div>
-            <!-- Grid row -->
-
         </div>
-        <!-- Footer Links -->
-
-        <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2023 Copyright: Cosas de chacra Todos los derechos reservados.
-            
         </div>
-        <!-- Copyright -->
-
     </footer>
-    <!-- Footer -->
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script> 
